@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.howiezuo.androidplayground.ui.fragments.MainFragment">
+
+    <RelativeLayout
+        android:layout_width="216dp"
+        android:layout_height="216dp"
+        android:layout_centerInParent="true">
+
+        <View
+            android:id="@+id/red_view"
+            android:layout_width="@dimen/size72"
+            android:layout_height="@dimen/size72"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/red"
+            android:transitionName="transition" />
+
+        <View
+            android:id="@+id/blue_view"
+            android:layout_width="@dimen/size72"
+            android:layout_height="@dimen/size72"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/blue"
+            android:transitionName="transition" />
+
+        <View
+            android:id="@+id/green_view"
+            android:layout_width="@dimen/size72"
+            android:layout_height="@dimen/size72"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/green"
+            android:transitionName="transition" />
+
+        <View
+            android:id="@+id/yellow_view"
+            android:layout_width="@dimen/size72"
+            android:layout_height="@dimen/size72"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/yellow"
+            android:transitionName="transition" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/mask_view"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/android_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/android"
+        android:background="@color/blue"
+        android:visibility="invisible" />
+
+</RelativeLayout>

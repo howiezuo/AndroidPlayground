@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Android Playground</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="menu_open">Open</string>
+    <string name="menu_close">Close</string>
+
+    <!-- Title -->
+    <string name="title_android_async_http">Android Async Http</string>
+    <string name="title_picasso">Picasso</string>
+    <string name="title_retrofit">Retrofit</string>
+    <string name="title_event_bus">Event Bus</string>
+    <string name="title_fresco">Fresco</string>
+    <string name="title_ok_http">OkHttp</string>
+    <string name="title_glide">Glide</string>
+    <string name="title_otto">Otto</string>
+    <string name="title_font_awesome">Font Awesome</string>
+    <string name="title_surface_draw">Draw(Surface)</string>
+    <string name="title_draw">Draw</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_transition">Transition</string>
+    <string name="title_test">Test</string>
+
+    <!-- Menu -->
+    <string name="navdrawer_item_android_async_http">@string/title_android_async_http</string>
+    <string name="navdrawer_item_picasso">@string/title_picasso</string>
+    <string name="navdrawer_item_retrofit">@string/title_retrofit</string>
+    <string name="navdrawer_item_event_bus">@string/title_event_bus</string>
+    <string name="navdrawer_item_fresco">@string/title_fresco</string>
+    <string name="navdrawer_item_ok_http">@string/title_ok_http</string>
+    <string name="navdrawer_item_glide">@string/title_glide</string>
+    <string name="navdrawer_item_otto">@string/title_otto</string>
+    <string name="navdrawer_item_font">@string/title_font_awesome</string>
+    <string name="navdrawer_item_surface_draw">@string/title_surface_draw</string>
+    <string name="navdrawer_item_draw">@string/title_draw</string>
+    <string name="navdrawer_item_camera">@string/title_camera</string>
+    <string name="navdrawer_item_transition">@string/title_transition</string>
+    <string name="navdrawer_item_test">@string/title_test</string>
+
+</resources>

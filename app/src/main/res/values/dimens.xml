@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Basic -->
+    <dimen name="size0">0dp</dimen>
+    <dimen name="size4">4dp</dimen>
+    <dimen name="size8">8dp</dimen>
+    <dimen name="size16">16dp</dimen>
+    <dimen name="size24">24dp</dimen>
+    <dimen name="size48">48dp</dimen>
+    <dimen name="size72">72dp</dimen>
+
+
+    <!-- Text -->
+    <dimen name="text_size12">12sp</dimen>
+    <dimen name="text_size14">14sp</dimen>
+    <dimen name="text_size16">16sp</dimen>
+    <dimen name="text_size20">20sp</dimen>
+    <dimen name="text_size34">34sp</dimen>
+
+
+    <!-- Default -->
+    <dimen name="list_item_height">@dimen/size48</dimen>
+    <dimen name="list_item_horizontal_padding">@dimen/size16</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_x_small">@dimen/text_size12</dimen>
+    <dimen name="text_size_small">@dimen/text_size14</dimen>
+    <dimen name="text_size_medium">@dimen/text_size16</dimen>
+    <dimen name="text_size_large">@dimen/text_size20</dimen>
+    <dimen name="text_size_x_large">@dimen/text_size34</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+
+    <dimen name="icon_size">24dp</dimen>
+
+    <dimen name="font_awesome_size">@dimen/size48</dimen>
+
+
+</resources>
