@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="snakeyaml-android-1.8-SNAPSHOT">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/snakeyaml-android-1.8-SNAPSHOT.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
