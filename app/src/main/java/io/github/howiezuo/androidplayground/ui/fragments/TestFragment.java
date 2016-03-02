@@ -22,9 +22,6 @@ public class TestFragment extends BaseFragment {
 
     private static final String TAG = TestFragment.class.getName();
 
-    @Bind(R.id.test_result)
-    TextView testResult;
-
     /**
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
@@ -54,40 +51,6 @@ public class TestFragment extends BaseFragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-        String str = "あいうえお、かきくけこ、#TAG さしすせそ #tag#ABC";
-        testResult.setText(formatString(str));
     }
 
-    @Override
-    public void onAttach(Activity activity) {
-        super.onAttach(activity);
-    }
-
-    @Override
-    public void onDetach() {
-        super.onDetach();
-    }
-
-    private SpannableString formatString(String str) {
-        SpannableString ss = new SpannableString(str);
-
-        Pattern pattern = Pattern.compile("#(.+?)( |$)");
-        Matcher matcher = pattern.matcher(str);
-        while (matcher.find()) {
-            LogUtils.LOGD(TAG, matcher.group());
-
-            int start = matcher.start();
-            int end = matcher.end();
-
-            ss.setSpan(new ClickableSpan() {
-                @Override
-                public void onClick(View widget) {
-
-                }
-            }, start, end, Spanned.SPAN_INCLUSIVE_INCLUSIVE);
-        }
-
-        return ss;
-    }
 }

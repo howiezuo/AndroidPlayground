@@ -4,10 +4,4 @@
     android:layout_height="match_parent"
     tools:context="io.github.howiezuo.androidplayground.ui.fragments.MainFragment">
 
-    <TextView
-        android:id="@+id/test_result"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"/>
-
 </FrameLayout>
